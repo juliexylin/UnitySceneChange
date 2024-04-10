@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Author: Myungin Lee. Spring 2024
+// This codes shows how to specify, clone, and manipulate the game objects using rigidbody components
+
 public class Chaser : MonoBehaviour
 {
     GameObject player;
