@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+
     // Rigidbody of the player.
     private Rigidbody rb;
 
@@ -42,4 +43,5 @@ public class PlayerController : MonoBehaviour
         // Apply force to the Rigidbody to move the player.
         rb.AddForce(movement * speed);
     }
+
 }
